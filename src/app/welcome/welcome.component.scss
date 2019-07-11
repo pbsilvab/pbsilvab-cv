@@ -1,0 +1,49 @@
+.background{
+    background-color: #00695c;
+    height: 24vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.relative-position{
+    position: relative;
+}
+.relative-position-uno{
+    position: relative;
+    z-index: -1;
+}
+.page-position{
+    padding-top: 35px;
+}
+.ca{
+    z-index: 3;
+    margin-top: -1rem;
+    border-radius: .25rem;  
+}
+.ca-bod{    
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    -webkit-border-radius: 0!important;
+    border-radius: 0!important;
+}
+.card.card-cascade.wider .view.view-cascade {
+    z-index: 2;
+}
+.card.card-cascade .view.view-cascade {
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+.view {
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+}
+.padding-20{
+    padding: 20px;
+}
+.social-icons{
+    padding: 10px;
+    text-decoration:none;
+    color: black;
+}
