@@ -14,11 +14,11 @@
                                         <div class="text-center padding-20">
                                             <h4>Pedro B. Silva B.</h4>
                                             <h6>Software Engineer | pbsilvab@gmail.com</h6>
-                                            <a class="social-icons" target="blank" href="http://instagram.com/pbsilvab"><i class="fa fab fa-instagram fa-2x"></i> </a>
-                                            <a class="social-icons" target="blank" href="https://twitter.com/pbsilvab"><i class="fa fab fa-twitter fa-2x"></i> </a>
-                                            <a class="social-icons" target="blank" href="https://github.com/pbsilvab"><i class="fa fab fa-github fa-2x"></i> </a>
-                                            <a class="social-icons" target="blank" href="https://www.youtube.com/channel/UCYnX7ESGaTYwhGBhJgRnxyA?view_as=subscriber"><i class="fa fab fa-youtube fa-2x"></i> </a>
-                                            <a class="social-icons" target="blank" href="https://www.linkedin.com/in/pbsilvab"><i class="fa fab fa-linkedin fa-2x"></i> </a>
+                                            <a class="social-icons" target="blank" href="http://instagram.com/pbsilvab"><i class="fab fa-instagram fa-2x"></i> </a>
+                                            <a class="social-icons" target="blank" href="https://twitter.com/pbsilvab"><i class="fab fa-twitter fa-2x"></i> </a>
+                                            <a class="social-icons" target="blank" href="https://github.com/pbsilvab"><i class="fab fa-github fa-2x"></i> </a>
+                                            <a class="social-icons" target="blank" href="https://www.youtube.com/channel/UCYnX7ESGaTYwhGBhJgRnxyA?view_as=subscriber"><i class="fab fa-youtube fa-2x"></i> </a>
+                                            <a class="social-icons" target="blank" href="https://www.linkedin.com/in/pbsilvab"><i class="fab fa-linkedin fa-2x"></i> </a>
                                             <hr/>
                                             <h6>Localidad Actual: Buenos Aires, Argentina</h6> 
                                             <h6>Nacionalidad: Venezolano</h6> 
@@ -185,6 +185,32 @@
                                             Reto B.A.
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>              
+            </div>
+            <div class="container page-position">
+                <div class="row">
+                    <div class="col-md-12 topm">
+                        <div class="grey lighten-5 card">
+                            <div class="ca ca-bod">
+                                <br/>   
+                                <div class="padding-20 text-center">
+                                   
+                                    <a class="rates-icons" (click)="makeVote('negative')" >
+                                        <i class="fas fa-angry fa-2x"></i>
+                                        <small> Dislikes {{stats.dislikes}}</small>
+                                    </a>
+                                    <a class="rates-icons" (click)="makeVote('regular')">
+                                        <i class="fas fa-meh-rolling-eyes fa-2x"></i>
+                                        <small>x's {{stats.normal}}</small>
+                                    </a>
+                                    <a class="rates-icons" (click)="makeVote('positive')">
+                                        <i class="fas fa-grin-stars fa-2x"></i>
+                                        <small>Likes {{stats.likes}}</small>
+                                    </a>
                                 </div>
                             </div>
                         </div>
