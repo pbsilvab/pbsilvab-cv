@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ApiService { 
 
-  apiurl:string='http://localhost:8000'
+  apiurl:string='https://pbsilvab.dev/api/public/'
 
   constructor(private http:HttpClient) { }
 

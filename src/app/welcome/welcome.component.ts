@@ -9,7 +9,7 @@ import { NotificacionesService } from '../services/notificaciones.service';
 })
 export class WelcomeComponent implements OnInit {
 
-  stats :object = {
+  stats :any = {
     likes:0,
     dislikes:0,
     normal:0,

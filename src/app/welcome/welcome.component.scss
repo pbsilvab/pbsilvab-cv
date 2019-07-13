@@ -51,9 +51,16 @@
 .rates-icons{
     padding: 10px;
     text-decoration:none;
+    display: inline-block;
+
     
     i{
         color: #adadad;
+        display: block;
+
+    }
+    small{
+        display: block;
     }
 }
 .topm{
