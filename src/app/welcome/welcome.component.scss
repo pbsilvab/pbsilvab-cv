@@ -1,12 +1,24 @@
 
+html{
+    scroll-behavior: smooth;
+}
 .background{
     background-color: #00695c;
-    height: 24vh;
+    height: 10vh;
     position: fixed;
     left: 0;
     right: 0;
-}
+    scroll-behavior: smooth;
 
+    &:on scroll-behavior{
+        height: 100vh;
+    }
+}
+.pattern{
+    background-image: url('../../assets/images/nueva.png');
+    background-position: center center;
+
+}
 .relative-position{
     position: relative;
 }
@@ -65,4 +77,47 @@
 }
 .topm{
     margin-top: 15px;
+}
+
+.fa-laravel{
+    color:#F05340;
+}
+.fa-angular{
+    color:#C43330;
+}
+.fa-vuejs{
+    color:#41B882;
+}
+.fa-mobile{
+    color:#277CFA;
+}
+.fa-js{
+    color:#dabf16;
+}
+.fa-php{
+    color:#7e83b9;
+}
+
+.fa-instagram{
+    color:#8a3ab9;
+}
+.fa-twitter{
+    color:#00aced;
+}
+.fa-github{
+    color:#000;
+}
+.fa-youtube{
+    color:#FF0000;
+}
+.fa-linkedin{
+    color:#4875B4;
+}
+
+.obj1{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    -webkit-filter:blur(3px);
+    
 }

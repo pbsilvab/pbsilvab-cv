@@ -18,6 +18,14 @@ export class WelcomeComponent implements OnInit {
   constructor(private api: ApiService, private notification : NotificacionesService) { }
 
   ngOnInit() {
+    document.getElementById("myDIV").onmousemove = function(event) {
+      console.log(event)
+        var x = (event.pageX * -1.5 / 125 ); 
+        var y = (event.pageY * -1.5 / 125 ); 
+
+        let obj = document.getElementById("img1");
+        obj.style.transform = 'translate3D('+x+'px,'+y+'px,0) rotate('+x+'deg)';
+    };
     this.getStatsVotes();
   }
 
@@ -38,6 +46,12 @@ export class WelcomeComponent implements OnInit {
     this.api.getStatsVotes().subscribe((response_stats)=>{
       this.stats = response_stats[0];
     });
+
+  }
+
+  moveObjects(){
+
+    
 
   }
 

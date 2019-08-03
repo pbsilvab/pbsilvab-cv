@@ -11,11 +11,13 @@ import { ApiService } from './services/api.service';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NotificacionesService } from './services/notificaciones.service';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,

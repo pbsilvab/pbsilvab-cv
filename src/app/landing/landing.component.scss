@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+svg{
+    font-size: 8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.layoutcplip{
+    position: relative;
+    .clipper{
+        position: absolute;
+        height: 40vh;
+        width: 100vw;
+        clip-path: circle(40% at 100% 100%);
+    }
+}
+.images {
+     margin: 0px;
+    .svgs{
+        display: inline-block;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .one{
+        width: 20%;
+      margin-top: 10em;        
+    }
+    .two{
+        width: 15%;
+       margin-top: 1.5em;
+    }
+    .three{
+        width: 25%;
+        margin-top: 5em;
+    }
+}
+.svg-brain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.svg-chart{
+    display: block;
+    width: 50%;
+}
